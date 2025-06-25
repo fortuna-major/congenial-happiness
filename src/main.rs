@@ -1,6 +1,6 @@
 fn main() {
-    println!("{}", total_production(6, 5) as i32); // to round the values we use i32
-   // println!("{}", cars_produced_per_minutes(6, 5) as i32); // to round the values we use i32
+    println!("{}", total_production(6, 5) as i32); 
+   println!("{}", cars_produced_per_minutes(6, 5) as i32); 
 }
 
 fn total_production(hours: u8, speed: u8) -> f32 {
